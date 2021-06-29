@@ -1,10 +1,10 @@
 # CodeCollection
 
 HELLO WORLD 
-In this repository you will find projects with 
+In this repository you will find projects with <br/>
 --> HTML <br/>
---> CSS 
---> BOOTSTRAP 
---> SASS 
---> NODEJS 
+--> CSS <br/>
+--> BOOTSTRAP <br/>
+--> SASS <br/>
+--> NODEJS <br/>
 --> JAVASCRIPT Projects and more
