@@ -9,10 +9,5 @@ In this repository you will find <br/>
     <li>BOOTSTRAP</li>
     <li>SASS</li>
     <li>NODEJS</li>
-    <li>NODEJS</li>
     <li>JAVASCRIPT projects and more ...</li>
-
-
-
-
 </ul>
