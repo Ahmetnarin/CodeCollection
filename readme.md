@@ -1,11 +1,18 @@
 # CodeCollection
 
-<h1 style="text-align: center;">Hello World</h1>
-HELLO WORLD <br/>
+<h1>Hello World</h1>
+<br/>
 In this repository you will find <br/>
---> HTML <br/>
---> CSS <br/>
---> BOOTSTRAP <br/>
---> SASS <br/>
---> NODEJS <br/>
---> JAVASCRIPT Projects and more. <br/>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>BOOTSTRAP</li>
+    <li>SASS</li>
+    <li>NODEJS</li>
+    <li>NODEJS</li>
+    <li>JAVASCRIPT projects and more ...</li>
+
+
+
+
+</ul>
