@@ -1,5 +1,6 @@
 # CodeCollection
 
+<h1 style="text-align: center;">Hello World</h1>
 HELLO WORLD <br/>
 In this repository you will find <br/>
 --> HTML <br/>
