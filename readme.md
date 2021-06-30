@@ -9,6 +9,6 @@ In this repository you will find a collection of <br/>
     <li>BOOTSTRAP</li>
     <li>SASS</li>
     <li>NODEJS</li>
-    <li>JAVASCRIPT projects and more ...</li>
+    <li>JAVASCRIPT and more ...</li>
 </ul> 
 projects ideas to improve your coding skills
