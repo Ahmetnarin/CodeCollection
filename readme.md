@@ -10,5 +10,5 @@ In this repository you will find a collection of <br/>
     <li>SASS</li>
     <li>NODEJS</li>
     <li>JAVASCRIPT projects and more ...</li>
-</ul> <br/>
+</ul> 
 projects ideas to improve your coding skills
