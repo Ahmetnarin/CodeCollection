@@ -82,10 +82,10 @@ nav a.active {
   padding: 1rem;
   flex: 1;
 }
-
-col {
+/* 
+.col {
   width: 100%;
-}
+} */
 
 .col h2 {
   text-align: center;
@@ -94,4 +94,51 @@ col {
 
 .text-center {
   text-align: center;
+}
+
+button {
+  background-color: #007ff4;
+  border: none;
+  padding: 1rem 2rem;  
+}
+
+
+button a {
+  text-decoration : none;
+  color: white;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 1rem;
+
+  }
+  
+  .row {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .col img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+  p {
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
