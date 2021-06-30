@@ -53,11 +53,54 @@ aside a {
 }
 
 main {
-  color: #fff;
+  color: rgb(112, 122, 228);
+  font-size: 2.5rem;
+  padding: 3rem;
+}
+
+main {
+  margin : 0;
+
+}
+
+main h3 {
+  color: #feab51;
+  margin: 0;  
 }
 
 .logo{
   color: black;
   font-size: 2.5rem;
-  padding : 2rem 0 0 3rem;
+  padding : 2rem 0 0 0.5rem;
+}
+
+@media screen and  (max-width : 768px) {
+  body {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  main {
+    min-height: 60vh;
+  }
+
+  aside {
+    height: auto;
+    width: 100%;
+  }
+
+  aside ul {
+    display: flex;
+    flex: wrap;
+
+  }
+
+  .logo {
+    color: white;
+  }
+
+  .special {
+    display: none;
+  }
+  
 }
