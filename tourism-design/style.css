@@ -1,25 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
-:root {
-  --color-white: #f3f3f3;
-  --color-darkblue: #1b1b32;
-  --color-darkblue-alpha: rgba(27,27,50,0.8);
-  --color-green: #37af65;
-}
 
 
 * {
   box-sizing: border-box;
-  
 }
 
 body {
+  background-image: url(./img/newyork.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
   font-family: "Roboto", sans-serif;
   margin: 0;
-
+  min-height: 100vh;
 }
 
 
+aside {
+  background-color: black;
+  width: 200px;
+  /* height: 100vh; */
+}
 
-
-
+aside a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
