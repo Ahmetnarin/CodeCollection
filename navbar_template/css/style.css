@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+header > .container {
+    max-width: 100%;
+    padding: 0;
+
+}
+
+header .topArea {
+    background-color: #E31E24;
+    height: 45px;
+    padding: 0 15px;
+
+}
+
+
+header .topArea .leftArea {
+    position: relative;
+    display: inline-block;
+    top: 13px;
+}
+
+header .topArea .link,
+header .topArea .spacer,
+header .topArea .lang {
+    color: #fff;
+}
+
+header .topArea .link{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+header .topArea .link:hover {
+    text-decoration: underline;
+    /* opacity: 0.9; */
+    color: #000;
+}
+
+header .topArea .rightArea {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+
+header .topArea .social {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 32px;
+    display: inline-block;
+    background-image: url('../img/social.png');
+}
+
+.displayInlineBlockT {
+    display: inline-block;
+    vertical-align: top;
+}
+.displayInlineBlockM {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .topArea .social:hover {
+    opacity: 0.85;
+}
+
+header .topArea .social .face {
+    background-position: 0 0;
+}
+header .topArea .social .insta {
+    background-position: 0 0;
+}
+header .topArea .social .youtube {
+    background-position: 0 0;
+}
+
+@media(max-width: 700px ){
+    header {
+        display: none;
+    }
+}
+
