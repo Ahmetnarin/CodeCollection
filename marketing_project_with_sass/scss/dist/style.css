@@ -14,6 +14,10 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .showcase {
   background-color: #0e6cff;
   color: #fff;
@@ -24,12 +28,34 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.showcase ul {
+.showcase nav ul {
   display: flex;
   list-style-type: none;
 }
-.showcase li {
+.showcase nav li {
   padding: 15px;
+}
+.showcase nav a:hover {
+  color: #ff8700;
+}
+.showcase a {
+  color: #fff;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-content img {
+  width: 50%;
+}
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.showcase-content p {
+  margin: 20px 0;
 }
 
 .container {
