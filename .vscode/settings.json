@@ -2,5 +2,5 @@
     "liveSassCompile.settings.autoprefix": [
         "#/definitions/common/properties/preLaunchTask"
     ],
-    "compile-hero.disable-compile-files-on-did-save-code": true
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }
