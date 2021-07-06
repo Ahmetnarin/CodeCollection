@@ -16,7 +16,7 @@
     <nav class="navbar bg-dark">
         <h1>
             <a href="dashboard.html">
-                <i class="fa fa-sign-in"></i> DevConnector </a>
+                <i class="fas fa-user-plus"></i> DevConnector </a>
         </h1>
         <ul>
             <li><a href="profiles.html">Developers</a></li>
@@ -25,6 +25,33 @@
         </ul>
     </nav>
     <section class="container">
+        <h1 class="large text-primary"> Log In </h1>
+        <p class="lead"><i class="fa fa-sign-in"></i></p> Log in your Account <form action="dashboard.html" class="form">
+            <!-- <div class="form-group">
+                <input type="text" placeholder="Name" required>
+            </div> -->
+            <div class="form-group">
+                <input type="email" placeholder="Email Address">
+                <small class="form-text"> This site uses Gravatar, so if you want a profile image, use a Gravatar email
+                </small>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="password" minlength="6">
+            </div>
+            <!-- <div class="form-group">
+                <input type="password" placeholder="Confirm Password" minlength="6">
+            </div> -->
+            <input type="submit" value="Log In" class="btn btn-primary" />
+            <div class="my-2">
+                <ul>
+                    <li><a href="#" class="my-5">Forgot password?</a></li>
+                </ul>
+
+            </div>
+            
+        </form>
+        
+       
     </section>
 </body>
 
