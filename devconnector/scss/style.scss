@@ -46,8 +46,8 @@ img {
     }
 
     a {
-        // color: #fff;
-        padding: 0.45rem;
+        color: #fff;
+        padding: 0.45rem; 
         margin: 0 0.25rem;
 
 
@@ -59,6 +59,25 @@ img {
         // position: relative;
         // display: inline-block;
         // margin-left: 2rem;
+    }
+}
+
+
+.landing {
+    position: relative;
+    background: url("../fileshtml/img/showcase.jpg") no-repeat center center/cover;
+    height: 100vh;
+
+    &-inner{
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 
