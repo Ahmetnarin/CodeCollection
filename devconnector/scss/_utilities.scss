@@ -28,6 +28,10 @@
 .text-primary {
     color: $primary-color;
 }
+
+.round-img{
+    border-radius: 10px;
+}
 // Background 
 .bg {
     &-primary {
@@ -63,11 +67,13 @@
     margin-right: 0.5rem;
     outline: none;
     transition: all 0.2s ease-in;
+    border-radius: 5px;
 
     &.btn-primary {
         @include set-background($primary-color);
         &:hover {
             background: lighten($primary-color,20%);
+            
         }
     }
     &.btn-dark {
