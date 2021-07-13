@@ -335,6 +335,10 @@ img {
 .profile-grid .profile-top img {
   width: 250px;
 }
+.profile-grid .profile-top .icons a {
+  color: #fff;
+  margin: 0 0.3rem;
+}
 .profile-grid .profile-about {
   grid-area: about;
 }
