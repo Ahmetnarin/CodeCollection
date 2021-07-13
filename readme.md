@@ -16,4 +16,4 @@ There are projects like technology, onlineNews, tourism design. They all are tem
 <br/>
 I created this projects in this Repository to learn and improve my coding skills. There are tons of tools/frameworks to make webpages more professional. You can also use all projects without a permission.
 <br/>
-Thank you for reading till here.
+Thank you for taking the time to read this readme.md
